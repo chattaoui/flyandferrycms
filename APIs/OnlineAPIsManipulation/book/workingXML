@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookRequest xmlns="http://schemas.ferrygateway.org/1.2.1">
+    <Context AgentAccountNumber="FGW0006" TimeStamp="2023-09-01T10:00:00" TransactionId="" User="" LanguagePrefCode="en" Currency="EUR" CountryCode="FIN" OriginatingSystem=""/>
+    <Passengers>
+        <Passenger Id="1" Category="Adult" Title="Mr" Forename="Mahmed" Surname="Nelson" DateOfBirth="1965-02-08" Gender="Male" IdentityCategory="Passport" IdentityNumber="A0001" IdentityIssueCountry="GBR" IdentityExpiryDate="2021-05-08" PassengerNationality="GBR" />
+        <Passenger Id="2" Category="Child" Title="Mr" Forename="Joe" Surname="Nelson" DateOfBirth="2012-01-20" Gender="Male" IdentityCategory="Passport" IdentityNumber="A0002" IdentityIssueCountry="GBR" IdentityExpiryDate="2021-05-08" PassengerNationality="GBR" />
+    </Passengers>
+    <!-- <Vehicles>
+    <Vehicle Id="1">
+      <Lead OperatorCode="car" Height="150" Length="400" Registration="ABC-123" />
+    </Vehicle>
+  </Vehicles> -->
+
+    <ContactDetails Forename="John" Surname="Nelson" Title="Mr" Email="john.nelson@example.com" AddressLine1="12th Street" AddressLine2="A 10" City="Vaasa" ZipPostCode="65100" CountryCode="FIN" TelephoneNumber="004411111111111" MobileNumber="00447777111111"/>
+    <FerryComponent>
+        <Sailings>
+            <Sailing Id="Out">
+                <SailingInfo DepartDateTime="2023-09-03T14:00:00" DepartPort="TNTUN" DestinationPort="ITGOA" AllPassengers="true" AllPets="true" AllVehicles="true" />
+                <FareDetails FareType="FGW" Productcode="" />
+                <Services>
+                    <OnBoardAccommodationServices>
+                        <OnBoardAccommodationService Code="A4E" Quantity="1">
+                            <PassengerRefs>
+                                <Ref Id="1" />
+                                <Ref Id="2" />
+                            </PassengerRefs>
+                        </OnBoardAccommodationService>
+                    </OnBoardAccommodationServices>
+                </Services>
+            </Sailing>
+
+        </Sailings>
+    </FerryComponent>
+</BookRequest>

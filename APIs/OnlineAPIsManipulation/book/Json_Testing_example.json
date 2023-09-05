@@ -1,0 +1,84 @@
+{
+    "token": "86REkzYPT-RvRPvdpgCtFXaexomD8XX8o1jP8c3uSpU62p10IyXrAQYoTXerpGri5aIEDMeG_EogPG5QXG2Zj_F4BcqEnfe6WJWWiRJyGuQvdnAw5tN26ULGUiGayKx4HdWVkwqbnyTuc-9S3hHJHv3ZxhOA4Ur_ZM-98qkLvguUzKfc811DhMBvmrhiifUKh36K5532l5Vq7nRUhstDCR5FpkVvf1Am0zjAyW1aDswqXNakHCaE4hNw307gxPAzhTTxQeAdDeSC83kEwXaZOSi9bDax7ZktPhMTt7Wp_rh4IzwUUlNOBzudqzJLS1e1A-qzLYctCwSEkXNWhsRQaJF-0oUEocDb_KP8EmjhgBU6j79QQh2UdL46XVnx1gCO6DMRrb3qW6mIIdq_y8oYVPP90F1bDhqoW0QPddbEowD6yV0ooR5dYKr2754GjrKnP71oF1F4xqMYGoNdBaaZTqY-zTcJaif9oWcERx_sX6oMIMgkQnpECWzg-H1jTyK3",
+    "AgentAccountNumber": "FGW0006",
+    "TimeStamp": "2023-09-01T10:00:00Z",
+    "TransactionId": "",
+    "User": "",
+    "LanguagePrefCode": "en",
+    "Currency": "EUR",
+    "CountryCode": "FIN",
+    "OriginatingSystem": "",
+    "passengers": [
+      {
+        "Category": "Adult",
+        "Title": "Mr",
+        "Forename": "Mahmed",
+        "Surname": "Nelson",
+        "DateOfBirth": "1965-02-08",
+        "Gender": "Male",
+        "IdentityCategory": "Passport",
+        "IdentityNumber": "A0001",
+        "IdentityIssueCountry": "GBR",
+        "IdentityExpiryDate": "2021-05-08",
+        "PassengerNationality": "GBR"
+      },
+      {
+        "Category": "Child",
+        "Title": "Mr",
+        "Forename": "Joe",
+        "Surname": "Nelson",
+        "DateOfBirth": "2012-01-20",
+        "Gender": "Male",
+        "IdentityCategory": "Passport",
+        "IdentityNumber": "A0002",
+        "IdentityIssueCountry": "GBR",
+        "IdentityExpiryDate": "2021-05-08",
+        "PassengerNationality": "GBR"
+      }
+    ],
+    "vehicles": [
+      {
+        "OperatorCode": "CAR",
+        "Height": "150",
+        "Length": "400",
+        "Registration": ""
+      }
+    ],
+    "sailings": [
+      {
+        "id": "Out",
+        "DepartDateTime": "2023-09-03T14:00:00",
+        "DepartPort": "TNTUN",
+        "DestinationPort": "ITGOA",
+        "FareType": ""
+      }
+    ],
+    "contactDetails": {
+      "Forename": "John",
+      "Surname": "Nelson",
+      "Title": "Mr",
+      "Email": "john.nelson@example.com",
+      "AddressLine1": "12th Street",
+      "AddressLine2": "A 10",
+      "City": "Vaasa",
+      "ZipPostCode": "65100",
+      "CountryCode": "FIN",
+      "TelephoneNumber": "004411111111111",
+      "MobileNumber": "00447777111111"
+    },  "onBoardServices": [
+      {
+        "code": "PC",
+        "quantity": 4,
+        "passengerRefs": [1, 2]
+      }
+    ],
+    "onBoardAccommodationServices": [
+      {
+        "code": "A4E",
+        "quantity": 1,
+        "passengerRefs": [1, 2]
+      }
+    ]
+    
+  }
+  
